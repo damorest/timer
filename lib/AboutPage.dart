@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'elemente.dart';
+
 class TrainingCycle extends StatelessWidget {
   //final String cardInfo;
   //final String count;
@@ -25,6 +27,7 @@ class TrainingCycle extends StatelessWidget {
             Expanded(
               child: ListView(
                 children: [
+                  TrainingElement(),
                   Container(
                     margin: const EdgeInsets.fromLTRB(5, 8, 8, 10),
                     width: MediaQuery.of(context).size.width * 0.42,
